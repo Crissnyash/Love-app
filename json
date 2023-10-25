@@ -1,0 +1,30 @@
+
+```json
+{
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "description": "A brief description of your app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No test scripts specified\""
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    // Add your dependencies here
+  },
+  "devDependencies": {
+    // Add your dev dependencies here
+  }
+}
+
+
+
+```json
+"dependencies": {
+  "express": "^4.17.1"
+},
+"devDependencies": {
+  "nodemon": "^2.0.7"
+}
