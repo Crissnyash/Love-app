@@ -1,0 +1,85 @@
+<!Doctype html>
+    <html>
+    <head>
+        <title>my App</title>
+        <link rel ="stylesheet" href="stles.css">
+        </head>
+        <body>
+        <header>
+             <ol>
+                <li>
+                   <h2> user registration and true identity verification</h2>
+                   <ul>
+                <li>implement a secure user registration system.</li>
+               <li>integrate a verification process to verify the user's identity ,such as through phone number ,email verification,or Id verification
+               </li>
+             </ul>
+           </li>
+           <li>
+           <h2>privacy and photo verification</h2>
+             <ul>
+                <li>Allow users to set privacy preferences for their photos.</li>
+         </ul>
+       </li>
+     </ol>ni
+           </header>
+          <main>
+            <section id="registration">
+              <h2>user Registration</h2>
+              <form>
+                 <!--include fields for user registration,such as name ,email, password,etc.-->
+                 <input type"text"placeholder="Name">
+                 <input type ="email"placeholder="Emalil">
+                 <input type="password"placeholder="password">
+                 <button type="submit">Register</button>
+             </form>
+             </section>
+             <section id="verification">
+                   <h2>True identity verification</h2>
+                   <!--include content for verification user's identity,such as phone verification,email verification,etc.-->
+                  <p> verify your phone number :</p>
+                 <input type ="text"placeholder="phone number">
+                 <button type="button" send verification code </button>
+                <input type ="text"placeholder="verification code">
+               <button type ="button">verify</button>
+              </section>
+              <section id="privacy">
+                  <h2>photo privacy and verification</h2>
+                  <!--include content for setting photo privacy preferences and adding photo verification -->
+                  <p> set your photo privacy:</>
+                  <input type="radio"name="privacy"value="public">public
+                  <input type ="radio"name="privacy"value="private">private
+                  <p>verfy your photo:</p>
+                    <input type="files>
+                    <button type ="button">upload and verify</butto>
+                    </section>
+                    <!--include sections and content for other features (purpose,matching, icebreakers, disappearing videos,etc.)-->
+                    </main>
+                 
+          </main>
+          <footer>
+              <div class="footer-section">
+                  <h3>contact us </h3>
+                      <p>Email: nahashonnyaga974@gmail.com</p>
+                         <p>phone:+254729138617</p>
+                  </div>
+                  <div class = " footer-section">
+                  <h3>About us </h3>
+                  <p>About our app and its purpose ---</p>
+                  <div>
+                <div class ="footer-section">
+                     <h3>legal/h3>
+                     <ul> 
+                        <li><a href="#">Terms and conditions</a></li>
+                   <li><a href="#">privacy policy</a></li>
+                   <li><a href="#">cookies policy </a><li>
+           </ul>
+        </div>
+
+                    
+          </footer>
+
+
+   <script src="script.js"><script>
+   </body>
+   </html>
